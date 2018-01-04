@@ -1,0 +1,104 @@
+fieldset{
+    border:0;
+    padding-bottom:16px;
+}
+.tituloregisto{
+    padding:0;
+    margin:0;
+    font-size:30px;
+    text-align:center;
+}
+input[type=text],input[type=password],input[type=email]{
+    width: 90%;
+    padding: 8px;
+    border: 2px solid rgba(19, 40, 126, 0.76);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-bottom:10px;
+    font-size:13px; 
+  }
+  
+  /* Style the label to display next to the inputs */
+label {
+    font-weight: bold;
+    font-size:17px;      
+    margin-left:30px;
+    padding: 8px 12px 12px 0;
+    display: inline-block;
+}
+  
+  /* Style the submit button */
+.button1{
+    background-color: rgb(38, 4, 163);
+    color: rgb(255, 255, 255);
+    margin-left:25%;
+    margin-top:5px;
+   padding-top:9px;
+   padding-bottom:9px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 0;
+}
+
+  /* Style the container */
+.container22 {
+    border-radius: 5px;
+    background-color:rgb(255, 255, 255);
+    padding: 20px;
+}
+  
+  /* Floating column for labels: 25% width */
+.less25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.less251 {
+    float: left;
+    width: 25%;
+}  
+.less251 label{
+    min-width:150px;
+    padding-left:125%;
+}
+  /* Floating column for inputs: 75% width */
+.less75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+  
+  /* Clear floats after the columns */
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}  
+
+.less75 span strong{
+    padding-left:19px;
+    font-size:17px;
+}
+.forgotpassword{
+margin-left:170px;
+font-size: 20px;
+font-weight:bold;
+text-decoration:none;
+color:#262626;
+}
+.button2{
+    background-color: rgb(38, 4, 163);
+    color: rgb(255, 255, 255);
+    margin-top:-5px;
+    padding: 7px 7px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 0;
+}
+
+.forgotpassword:hover{
+    color:blue;
+    }

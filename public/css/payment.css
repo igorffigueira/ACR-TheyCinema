@@ -1,0 +1,27 @@
+.pb_fieldset{
+    background-color:rgb(211, 211, 255);
+    border:1px black solid;
+    text-align:center;
+}
+
+.pb_fieldset form {
+    margin-left:100px;
+    background-color:rgb(168, 168, 253);
+    width:500px;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bold;
+}
+.pb_fieldset form p{
+    font-weight: bold;
+}
+.pb_fieldset form  p input{
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+width:400px;
+}
+
+.pb_fieldset form  button{
+    padding: 8px 8px;
+    background-color: rgb(38, 4, 163);
+    color: rgb(255, 255, 255);
+    }

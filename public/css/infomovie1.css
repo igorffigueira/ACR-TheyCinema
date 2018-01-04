@@ -1,0 +1,28 @@
+
+.im_flex-container {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+.im_flex-item {
+width: 45%;
+list-style-type: none;
+}
+.im_plot{
+    clear:both;
+    margin-left:20px;
+}
+.im_poster{
+    border: 6px solid black;
+}
+.im_title{
+    color:rgb(3, 3, 83);
+}
+.im_description{
+    color:rgb(3, 3, 83);
+    font-size:25px;
+}
+.im_descri{
+    margin-left:39px;
+    font-weight: bold;
+}
